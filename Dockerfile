@@ -20,3 +20,8 @@ CMD ["streamlit", "run", "SimpleApp.py"]
 #Docker run : docker run -p 8501:8501 ahmadzaidi2/streamlitapp
 #Check Running Container : docker ps
 #Stop running container: docker stop imageid
+
+#login to docker : docker login
+#push the latest version of app to docker hub: docker push ahmadzaidi2/streamlitapp
+#Go to tags  copy pull command from docker hub : docker pull ahmadzaidi2/streamlitapp:latest
+#run the app again in detached mode:docker run -d -p 8501:8501 ahmadzaidi2/streamlitapp:latest
